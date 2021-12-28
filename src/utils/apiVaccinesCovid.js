@@ -1,16 +1,18 @@
-const apiVaccinesCovid = async (setVaccines) => {
+const apiVaccinesCovid = async (setCountries, setVaccines) => {
 
     const response = await fetch('https://disease.sh/v3/covid-19/vaccine/coverage/countries?lastdays=1');
-    const vaccineJson = await response.json();
-
-    const array = [];
-    for (let index = 0; index < vaccineJson.length; index++) {
+    const countriesJson = await response.json();
+    
+    const arrayCountries = [];
+    const arrayVaccines = [];
+    for (let index = 0; index < countriesJson.length; index++) {
       
-      array.push(vaccineJson[index].country);
+      arrayCountries.push(countriesJson[index].country);
+      
       
     }
 
-    setVaccines(array);
+    setCountries(arrayCountries);
 }
 
 export default apiVaccinesCovid;

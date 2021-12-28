@@ -6,18 +6,19 @@ import apiVaccinesCovid from './utils/apiVaccinesCovid';
 
 function App() {
 
-  const [vaccines, setVaccines] = useState('null');
+  const [countries, setCountries] = useState('null');
+  const[vaccines, setVaccines] = useState(0);
 
   
   return (
     <>
     <h1>Teste</h1>
     <button onClick={() => { 
-      apiVaccinesCovid(setVaccines);
-      console.log(vaccines);
+      apiVaccinesCovid(setCountries);
+      console.log(countries);
       }}>Chamar API</button>
     
-    <CountrySelector arrayCountries={vaccines}/>
+    <CountrySelector arrayCountries={countries}/>
     </>
   );
 }
