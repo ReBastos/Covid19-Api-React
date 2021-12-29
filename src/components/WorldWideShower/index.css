@@ -1,0 +1,37 @@
+.miniContainer {
+  height: 210px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #ffffffbd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.miniContainer p {
+  margin: 0;
+  color: #2B3840;
+}
+
+.miniContainer h3 {
+  margin: 0;
+  margin-top: 20px;
+  color: #2B3840;
+}
+
+.miniContainer img {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+/*# sourceMappingURL=index.css.map */

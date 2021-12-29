@@ -13,11 +13,28 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-radius: 20px;
-  background-color: white;
+  border-radius: 30px;
+  background-color: #ffffffbd;
   border: solid 5px #31a5db;
-  border-top: 30px solid #31a5db;
-  border-top-left-radius: 15px;
+  border-top: 20px solid #31a5db;
+  
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .title {
@@ -25,4 +42,4 @@
   color: #2B3840;
   margin: 0;
 }
-/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=app.css.map */

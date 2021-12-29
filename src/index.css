@@ -9,9 +9,17 @@ body {
   width: 100vw;
   background-image: url(images/background.png);
   background-size: cover;
+  
+}
+
+#root{
+  height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 30px;
+  margin: 0;
 }
 
 code {
