@@ -12,7 +12,7 @@ const apiVaccinesCovid = async (setCountries, setVaccines,setCountriesLength) =>
       arrayVaccines.push(objectVaccines[index][Object.keys(objectVaccines[0])[0]])
 
     }
-    console.log(arrayVaccines);
+
     //console.log(arrayVaccines[0][Object.keys(arrayVaccines[0])[0]]);
     setCountries(arrayCountries);
     setVaccines(arrayVaccines);

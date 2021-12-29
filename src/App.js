@@ -4,17 +4,23 @@ import './App.css';
 import CountrySelector from './components/CountrySelector';
 import apiVaccinesCovid from './utils/apiVaccinesCovid';
 import VaccineShower from './components/VaccineShower';
+import apiWorldwideCovid from './utils/apiWorldwideCovid';
 
 function App() {
   
   useEffect(() =>{
     apiVaccinesCovid(setCountries, setVaccines, setCountryLength)
+    apiWorldwideCovid(setCases, setTodayCases, setDeaths, setTodayDeaths);
   }, []);
 
   const [countries, setCountries] = useState('null');
   const[vaccines, setVaccines] = useState(0);
   const [countryLength, setCountryLength] = useState();
   const [countryIndex, setCountryIndex] = useState(0);
+  const [deaths, setDeaths] = useState(0);
+  const [todayDeaths, setTodayDeaths] = useState(0);
+  const [cases, setCases] = useState(0);
+  const [todayCases, setTodayCases] = useState(0);
 
   
   return (
