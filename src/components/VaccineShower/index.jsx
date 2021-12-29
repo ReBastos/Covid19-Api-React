@@ -1,25 +1,18 @@
 import { useState } from "react";
+import './index.css'
 
-const VaccineShower = ({country, vaccines, countryIndex}) => {
+const VaccineShower = ({country, vaccines, countryIndex}) => {  
 
     const [numberVaccines, setNumberVaccines] = useState(0);
-
-
-    for (let index = 0; index < vaccines[countryIndex]; index++) {
-        setTimeout(() => {
-            setNumberVaccines(index);
-            console.log(numberVaccines);
-        }, 3000);
-        
-        
-    }
 
     if(country.length === 217) {
    
     return(
         <>
+        <div className="result">
         <h2>{country[countryIndex]}</h2>
-        <div>{numberVaccines}</div>
+        <p>{vaccines[countryIndex]}</p>
+        </div>
         </>
     )} else {
         return null

@@ -1,5 +1,9 @@
 
+import './index.css'
+
 const CountrySelector = ({arrayCountries, setCountryIndex}) => {
+
+
 
     const setProps = (evt) => {
         console.log(evt);
@@ -12,7 +16,7 @@ const CountrySelector = ({arrayCountries, setCountryIndex}) => {
         
         return(
             <>
-            <select onChange={setProps}>
+            <select onChange={setProps} id="countrySelector">
             {arrayCountries.map((x, y) => {
                return <option key={y} value={y}>{x}</option>
             }

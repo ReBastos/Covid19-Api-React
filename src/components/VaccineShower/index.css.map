@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,cAAc,EAAE,MAAM;EACtB,MAAM,EAAE,KAAK,CAAC,GAAG,CCPP,OAAO;EDQjB,OAAO,EAAE,GAAG;EACZ,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,KAAK,CAAC,IAAI,CCVZ,OAAO;EDWjB,SAAS,EAAE,KAAK;CAAG;;AAEvB,AAAA,OAAO,CAAC,EAAE,CAAC;EACP,aAAa,EAAE,CAAC;CAAG",
+    "sources": [
+        "index.sass",
+        "../../_partial.sass"
+    ],
+    "names": [],
+    "file": "index.css"
+}

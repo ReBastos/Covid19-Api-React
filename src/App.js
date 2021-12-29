@@ -19,14 +19,12 @@ function App() {
   
   return (
     <>
-    <h1>Teste</h1>
-    <button onClick={() => { 
-      console.log(countries);
-      console.log(`No país ${countries[0]}, foram vacinadas ${vaccines[0][Object.keys(vaccines[0])]} pessoas`);
-      }}>Chamar API</button>
-    
-    <CountrySelector arrayCountries={countries} setCountryIndex={setCountryIndex}/>
+    <div className='container'>
+    <img src="https://img.icons8.com/external-becris-lineal-becris/50/000000/external-vaccine-coronavirus-becris-lineal-becris.png"/>
+    <h1 className='title'>COVID-19 Vaccines Worldwide</h1>
+    <CountrySelector arrayCountries={countries} setCountryIndex={setCountryIndex}/>  
     <VaccineShower country={countries} vaccines={vaccines} countryIndex={countryIndex}/>
+    </div>
     </>
   );
 }

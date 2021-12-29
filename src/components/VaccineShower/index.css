@@ -1,0 +1,25 @@
+.result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid 1px #31a5db;
+  padding: 3px;
+  border-radius: 20px;
+  border-top: solid 15px #31a5db;
+  min-width: 150px;
+}
+
+.result h2 {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=index.css.map */
