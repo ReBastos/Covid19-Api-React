@@ -3,9 +3,8 @@
 
 This app was created to learn more about React and APIs.
 
-### Programming Languages/Libraries/Frameworks Used
-
+## Technologies Used
 <img height="20em" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> <img height="20em" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"> <br>
 
-<a href='https://pokeapi.co/'><a/>
+<a href='https://disease.sh/'>COVID-19 API<a/>
 
